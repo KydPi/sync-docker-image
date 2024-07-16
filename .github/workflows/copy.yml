@@ -7,13 +7,6 @@ on:
         description: "镜像源 (Registry)"
         required: true
         default: "docker.io"
-        options:
-          - "docker.io"
-          - "quay.io"
-          - "ghcr.io"
-          - "gcr.io"
-          - "k8s.gcr.io"
-          - "registry.k8s.io"
       destination:
         description: "目标源 (Registry)"
         required: true
